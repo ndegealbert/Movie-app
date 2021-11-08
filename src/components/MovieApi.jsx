@@ -13,7 +13,7 @@ function MovieApi() {
   const [movies, setMovies] = useState([]);
   const [searchMovies, setSearchMovies] = useState("");
   const [favouriteMovies, setFavourite] = useState([]);
-  const [removeCard, setRemove] = useState([]);
+
 
   const getMoviesList = (searchMovies) => {
     const apiKey = "b0312ded ";
